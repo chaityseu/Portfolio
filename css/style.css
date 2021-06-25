@@ -168,7 +168,7 @@ body {
 
 .profile-pic {
     min-height: 650px;
-    background-image: url("../images/profile_image_1.jpg");
+    background-image: url("../images/profile_image.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -656,7 +656,7 @@ body {
 
 .projects .cmpleted-project-card-content {
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
 }
 
 .projects .cmpleted-project-card-content .card-content {
@@ -664,11 +664,12 @@ body {
     border: none;
     border-radius: 0;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    margin-right: 10px;
  }
 
  .cmpleted-project-card-content .card-content h3 {
      font-weight: 700;
-     font-style: 30px;
+     font-size: 30px;
      color: #3e64ff;
  }
 
